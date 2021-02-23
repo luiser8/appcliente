@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:datePickerDialogTheme">@style/Dialog.Theme</item>
+        <item name="android:timePickerDialogTheme">@style/Dialog.Theme</item>
+        <item name="android:checkboxStyle">@style/CheckBoxStyle</item>
+    </style>
+    <!-- Configuration for Dialog.theme. -->
+    <style name="Dialog.Theme" parent="Theme.AppCompat.Light.Dialog">
+    <!-- BackgroundColor of the date modal -->
+    <item name="colorAccent">#3F51B5</item>
+    <!-- Change textColor of the date modal -->
+    <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+    <!-- BackgroundColor of the date modal -->
+    <item name="buttonTint">#3F51B5</item>
+    </style>
+
+    <style name="BootTheme" parent="AppTheme">
+        <!-- set the generated bootsplash.xml drawable as activity background -->
+        <item name="android:background">@drawable/bootsplash</item>
+    </style>
+
+</resources>
